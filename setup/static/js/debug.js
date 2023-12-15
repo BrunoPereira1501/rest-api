@@ -1,5 +1,3 @@
-// static/js/debug.js
-
 import { getData } from "./request.js";
 
 export class DebugForm {
@@ -34,5 +32,3 @@ export class DebugForm {
     code.innerText = data;
   }
 }
-
-// Don't include new DebugForm();

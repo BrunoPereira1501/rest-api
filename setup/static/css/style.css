@@ -1,6 +1,6 @@
 :root {
     --bg-color: white;
-    --main-color:coral;
+    --main-color: coral;
     --secondary-color: lavenderblush;
 }
 
@@ -46,10 +46,10 @@ input {
 }
 
 .editing {
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-color) !important;
 }
 
-button, 
+button,
 .button {
     background-color: var(--main-color);
     border: 1px solid var(--main-color);
